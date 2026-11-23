@@ -1,0 +1,15 @@
+[project]
+name = "voice-ai-assistant"
+version = "1.0.0"
+description = "Speak a question, hear the answer: Whisper + LLM + neural text-to-speech"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
